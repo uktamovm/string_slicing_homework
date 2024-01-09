@@ -1,9 +1,4 @@
 def main(s):
-    """
-    The s string variable is given. return the characters in the even position.
-    Args:
-        s(str): parameter
-    Returns:
-        str: answer
-    """
-    return
+    x=s[0::2]
+    return x
+print(main('codeschooluz'))
